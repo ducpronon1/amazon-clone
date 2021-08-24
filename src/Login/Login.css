@@ -1,0 +1,90 @@
+.login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.login__logo {
+    margin: 20px auto;
+    object-fit: contain;
+    width: 120px;
+
+}
+.login__container {
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 25px 26px!important;
+    max-width: 310px;
+    height: 320px;
+    border: 1px #ddd solid;
+}
+.login__signIn {
+    font-size: 28px;
+}
+.login__text {
+    font-weight: 700;
+    margin-top: 12px;
+    margin-bottom: 2px;
+    font-size: 13px;
+}
+input {
+    border-radius: 3px;
+    padding: 3px 7px;
+    outline: 0;
+    cursor: pointer;  
+    margin-bottom: 20px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5),0 1px 0 rgba(0,0,0,.07) inset;
+    height: 25px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+}
+input:focus {
+    transition: all .1s linear;
+    outline: 2px solid #e78433;
+    border: none;
+}
+.login__continue {
+    letter-spacing: 0.6px;
+    border-radius: 3px;
+    border: 1px solid #f0c14b;
+    background-color: #f0c14b;
+    cursor: pointer;
+    height: 34px;
+    
+}
+.login__help {
+    margin-top: 20px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.login a {
+    text-decoration: none;
+    color: rgb(14, 14, 212);
+    line-height: 19px;
+}
+.login__needHelp {
+    font-size: 14px;
+}
+.login__question {
+    font-size: 13px;
+    margin-top: 20px;
+}
+.login__createAccount{
+    width: 362px;
+    padding: 2px 10px 2px 11px;
+    height: 31px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.6) inset;
+    border-radius: 2px;
+    background: linear-gradient(to bottom,#f7f8fa,#e7e9ec);
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid rgb(107, 106, 106);
+    margin-top: 30px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
